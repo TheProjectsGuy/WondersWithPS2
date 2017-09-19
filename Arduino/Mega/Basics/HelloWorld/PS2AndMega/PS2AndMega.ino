@@ -1,6 +1,6 @@
 #include <Cytron_PS2Shield.h>
 
-Cytron_PS2Shield PS2(12, 13); //Only pins that work
+Cytron_PS2Shield PS2(12, 13); //Only pins that work - 12 and 13
 
 void setup() {
   PS2.begin(57600);
